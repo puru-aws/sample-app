@@ -17,4 +17,8 @@ scenarios:
     url: http://blazedemo.com/reserve.php
     body:
       fromPort: Paris
+<<<<<<< HEAD
       toPort: Buenos Aires
+=======
+      toPort: Buenos Aires
+>>>>>>> 31734e9c60f55dbbce55c242ad6645f54ddc1363
