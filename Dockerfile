@@ -1,7 +1,7 @@
-FROM python:3
+FROM amazonlinux:latest
 
 WORKDIR /usr/ec2-user
 
-RUN git 
-
-CMD [ "python", "source.py" ]
+RUN yum install git -y
+RUN yum update -y
+RUN yum install python3 -y

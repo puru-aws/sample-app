@@ -1,3 +1,3 @@
-sudo yum install docker -y
+yum install docker -y
 python --version
 python source.py
